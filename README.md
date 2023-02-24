@@ -1,1 +1,2 @@
-# movie
+# Movie theatre ordering system
+School project :)
