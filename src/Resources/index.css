@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+html, body {
+	width: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	font-family: Raleway;
+}
+
+#form {
+	margin: 3% 0;
+	padding: 2% 0;
+	text-align: center;
+	width: 70%;
+	border: solid 1px #4CAF50;
+	border-radius: 6px;
+	
+}
+
+.input-group {
+	clear: both;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.col {
+	margin: 2% 3%;
+}
+
+.cc {
+	float: left;
+	margin: 0 10px;
+}
+
+.icons {
+	margin-bottom: 2%;
+}
+
+input, select {
+	transition-property: border-color;
+	transition-duration: 0.4s;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: solid 1px lightblue;
+}
+
+select {
+	width: 100%;
+}
+
+
+input:focus {
+	border-color: #4CAF50;
+}
+
+input[type=email] {
+	width: 50%;
+}
+
+button {
+	padding: 15px 20px;
+	border-radius: 3px;
+	border: none;
+	transition-property: background-color;
+	transition-duration: 0.4s;
+	margin-bottom: 3%;
+}
+
+button:hover {
+	background-color: #4CAF50;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}

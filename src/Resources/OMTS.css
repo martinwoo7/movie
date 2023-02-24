@@ -1,0 +1,185 @@
+body {
+    margin: 0px;
+    font-family: "Verdana", "Helvetica", sans-serif;
+}
+
+h1 {
+    margin: -20px;
+}
+
+label, option, p, h3 {
+    margin-left: 30px;
+}
+
+.queries input {
+    margin-top: 10px;
+}
+
+#masthead {
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.btn {
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-family: "Consolas", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#signup {
+    color: white;
+    background-color: deepskyblue;
+}
+
+#reset {
+    color: black;
+    background-color: lightgrey;
+}
+
+#query {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    background-color: darkturquoise;
+}
+
+#poster_upload {
+    color: white;
+    background-color: crimson;
+    padding-top: 11px;
+    height: 29px;
+    width: 140px;
+    display: inline-flex;
+}
+
+#poster_text {
+    width: 100%;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.custom {
+    color: white;
+    background-color: darksalmon;
+    font-family: "Consolas", sans-serif;
+    font-size: 16px;
+    height: 30px;
+    width: 50px;
+    border: none;
+    text-align: center;
+    display: inline-flex;
+}
+
+.long {
+    color: white;
+    background-color: darksalmon;
+    font-family: "Consolas", sans-serif;
+    font-size: 16px;
+    height: 30px;
+    width: 300px;
+    border: none;
+    text-align: center;
+    display: inline-flex;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="password"] {
+    color: white;
+    background-color: darksalmon;
+    font-family: "Consolas", sans-serif;
+    font-size: 16px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    text-align: center;
+    display: inline-flex;
+}
+
+textarea {
+    color: white;
+    background-color: darksalmon;
+    font-family: "Consolas", sans-serif;
+    font-size: 16px;
+    border: none;
+    display: block;
+    margin-left: 40px;
+}
+
+::placeholder {
+    color: white;
+}
+
+#email {
+    margin-left: 70px;
+}
+
+#address {
+    margin-left: 51px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#follow {
+    background-color: antiquewhite;
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    display: block;
+}
+
+.queryBtn {
+    border: none;
+    font-family: "Consolas", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+}
+
+#showall {
+    color: white;
+    background-color: hotpink;
+    height: 30px;
+}
+
+#return {
+    color: black;
+    background-color: lightgray;
+    height: 25px;
+    padding-top: 6px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: lightgray;
+}
+
+#spacing {
+    margin-top: 100px;
+}

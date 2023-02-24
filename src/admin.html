@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin</title>
+        <link type="text/css" rel="stylesheet" href="Resources/OMTS.css" />
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="masthead">
+            <h1>Online Movie Ticket Service Demo</h1>
+        </div>
+        
+        <form method="post" action="queryadmin.php" enctype="multipart/form-data">
+            <div class='queries'>
+                <p><a href='showUsers.php'>Users</a></p>
+                
+                <label>Rental History: </label>
+                <input type="text" name="history" placeholder="Account ID">
+                
+                <label>Delete User: </label>
+                <input type="text" name="del_account" placeholder="Account ID">
+            </div>
+            
+            <br><hr>
+            <div class='queries'>
+                <label>Theatre Complex: </label>
+                <input type="text" name="theatre_complex" placeholder="Complex Name">
+                
+                <label><input type="checkbox" name="popular_complex">Show most popular</label>
+                <label><input type="checkbox" name="add_theatre">Add theatre</label>
+                <p>
+                    <label>Street #: </label>
+                    <input type="text" name="street_number" placeholder="#">
+
+                    <label>Street Name: </label>
+                    <input type="text" name="street_name" placeholder="Street Name">
+
+                    <label>City: </label>
+                    <input type="text" name="city" placeholder="City">
+                    <br>
+                    <label>Province: </label>
+                    <input type="text" name="province" placeholder="Province">
+
+                    <label>Postal Code: </label>
+                    <input type="text" name="postal_code" placeholder="Code">
+
+                    <label>Phone #: </label>
+                    <input type="text" name="phone_number" placeholder="Phone #">
+                </p>
+                <br>
+                <div>
+                    <label>Theatre: </label>
+                    <input type="text" name="theatre_number" placeholder="Theatre #">
+
+                    <label>Max Seats: </label>
+                    <input type="text" name="max_seats" placeholder="#">
+
+                    <label>Screen Size: </label>
+                    <input type="text" name="screen_size" placeholder="#">
+                </div>
+            </div>
+            
+            <br><hr>
+            <div class='queries'>
+                <label>Movie: </label>
+                <input type="text" name="movie" placeholder="Movie Name">
+                
+                <label><input type="checkbox" name="popular_movie">Show most popular</label>
+                
+                <p>
+                    <label>Director: </label>
+                    <input type="text" name="director" placeholder="Director">
+
+                    <label>Rating: </label>
+                    <input type="text" name="rating" placeholder="Rating">
+                    
+                    <label>Running Time: </label>
+                    <input class="custom" name="running_time_h" placeholder="H">
+                    <input class="custom" name="running_time_m" placeholder="M">
+                    <input class="custom" name="running_time_s" placeholder="S">
+                    <br>
+                    <label>Start Date: </label>
+                    <input type="date" name="start_date">
+                    
+                    <label>End Date: </label>
+                    <input type="date" name="end_date">
+                </p>
+                
+                <div class='queries'>
+                    <p>
+                        <label>Plot Synopsis: </label>
+                        <br><br>
+                        <textarea rows='3' cols='70' name="plot_synopsis" placeholder="Synopsis"></textarea>
+                    </p>
+                </div>
+            </div>
+            
+            <div id="spacing"></div>
+            
+            <div id="follow">
+                <input type="submit" value="Execute" class="btn" id="signup">
+                <div id="poster_upload" class="btn"><label id="poster_text">Upload Poster<input type="file" name="poster" accept="image/*"></label></div>
+                <input type="reset" class="btn" id="reset">
+            </div>
+        </form>
+    </body>
+</html>
